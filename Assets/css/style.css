@@ -1,0 +1,96 @@
+h1{
+    background: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    position: relative;
+    float: left;
+    Width: 280px;
+    Height: 60px;
+    font-size: 32px;
+    font-family: Georgia;
+    text-align: center;
+    padding: 20px;
+}
+
+#technics{
+    position: absolute;
+    clear: both;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+#aboutme{
+    position: relative;
+    clear: left;
+    float: left;
+    right: 5px;
+}
+
+.buttons{
+    background: #ffffff;
+    color: #777777;
+    font-size: 14px;
+}
+
+h2{
+    clear: left;
+    padding: 25px;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container{
+    position: relative;
+    background: #ffffff;
+    width: 550px;
+    top: 90px;
+    height: 405px;
+    border: 1px solid #777777;
+}
+
+#about{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+#portfolio{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+#contact{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+body{
+    font-family: Arial;
+    background: #cccccc;
+    border-color: #dddddd;
+}
+
+#bottom{
+    position: fixed;
+    background: #4aaaa5;
+    height: 10px;
+    width: 100%;
+    bottom: 45px
+}
+
+#footer{
+    position: fixed;
+    clear: both; 
+    background: #666666;
+    bottom: 0;
+    height: 15px;
+    width: 100%;
+    padding: 20px;
+}
+
+
