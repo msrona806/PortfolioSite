@@ -14,41 +14,52 @@ h1{
 
 #technics{
     position: absolute;
-    clear: both;
+    clear: right;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 0;
     padding: 15px;
     border: 1px solid #cccccc;
-}
-
-#aboutme{
-    position: relative;
-    clear: left;
-    float: left;
-    right: 5px;
 }
 
 .buttons{
     background: #ffffff;
     color: #777777;
     font-size: 14px;
+    
 }
 
 h2{
-    clear: left;
-    padding: 25px;
+    clear: both;
+    padding: 10px;
     color: #4aaaa5;
     font-size: 24px;
     font-weight: bold;
 }
 
 .container{
-    position: relative;
+    position: fixed;
+    padding: 20px;
+    float: right;
     background: #ffffff;
     width: 550px;
-    top: 90px;
-    height: 405px;
+    top: 150px;
+    height: 305px;
     border: 1px solid #777777;
+}
+
+.sidebar{
+    position: fixed;
+    float: right;
+    right: 25px;
+    top: 150px;
+    background: #ffffff;
+    border: 1px solid #777777;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #4aaaa5;
+    width: 175px;
+    height: 175px;
 }
 
 #about{

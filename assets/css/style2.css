@@ -1,0 +1,36 @@
+html {
+    background: #eeee;
+}
+
+.form {
+    position: relative;
+    width: 60%;
+    background: #ffff;
+    border: 1px solid #0000;
+    height: 500px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.sidebar {
+    position: fixed;
+    background: #ffff;
+    border: 1px solid #0000;
+    clear: both;
+    right: 25px;
+    top: 80px;
+    width: 225px;
+    height: 205px;
+}
+
+h2{
+    color: #4aaaa5;
+    text-align: left;
+}
+
+p {
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
