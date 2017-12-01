@@ -2,6 +2,31 @@ html {
     background: #eeee;
 }
 
+h1{
+    background: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    position: relative;
+    float: left;
+    Width: 280px;
+    Height: 40px;
+    font-size: 32px;
+    font-family: Georgia;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial;
+    background-image: url(https://images.pexels.com/photos/298723/pexels-photo-298723.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.buttons{
+    background: #ffffff;
+    color: #777777;
+    font-size: 14px;    
+}
+
 .form {
     position: relative;
     width: 60%;
@@ -12,20 +37,28 @@ html {
     margin-top: 50px;
 }
 
-.sidebar {
+.sidebar{
     position: fixed;
-    background: #ffff;
-    border: 1px solid #0000;
-    clear: both;
+    float: right;
     right: 25px;
-    top: 80px;
-    width: 225px;
-    height: 205px;
+    top: 150px;
+    background: #ffffff;
+    border: 1px solid #777777;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #4aaaa5;
+    width: 175px;
+    height: 175px;
 }
 
 h2{
+    clear: both;
+    padding: 10px;
     color: #4aaaa5;
-    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #777777;
 }
 
 p {
@@ -45,4 +78,51 @@ p {
 }
 #email {
     width: 600px;
+}
+
+#top{
+    background: white;
+    width: 100%;
+    height: 80px;
+}
+
+#about{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+#portfolio{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+#contact{
+    float: right;
+    width: 5%;
+    padding: 25px;
+}
+
+h3{
+    border-bottom: 2px solid #777777;
+    padding: 15px;
+}
+
+#links{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.container{
+    color: #777777;
+}
+
+input{
+    width: 100%;
+}
+
+container{
+    position: fixed;
 }
